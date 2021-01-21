@@ -1,3 +1,12 @@
+#COVID-Tracker
+Covid tracker app is a web application to track number of covid cases around the world. This app also visualizes daily data of confirmed, recovered and deaths around the world. Country wise overall data is also visulaized. Each country's loaction is also shown on a map. Dark and light themes are available.
+
+---
+##Resource
+
+- The api used to fetch data is [COVID API](https://covid19.mathdro.id/api).
+- [Mapbox](https://www.mapbox.com/)  is used for map.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
