@@ -41,7 +41,7 @@ export const countries = async () => {
 export const locateCountry = async (country) => {
   if (country) {
     try {
-      const { data: { features } } = await axios.get(`https://api.mapbox.com/geocoding/v5/mapbox.places/${country}.json?types=country&access_token=pk.eyJ1IjoidWpqd2FsMDciLCJhIjoiY2tqMm1uMXBzNTZrdTJ5bGI2eXY3MjRqZiJ9.BizoC2P5-J_fd87CFOhrAA`)
+      const { data: { features } } = await axios.get(`https://api.mapbox.com/geocoding/v5/mapbox.places/${country}.json?types=country&access_token=${process.env.REACT_APP_MAPBOX_TOKEN}`)
      const CountryStats = {
        coordinates : features[0].geometry.coordinates,
        short_code :  features[0].properties.short_code
