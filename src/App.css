@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  /* background-color: white; */
+}
+:root {
+ --font: white;
+  --background: rgb(52 51 50);
+}
+:root[data='light'] {
+ --font: black;
+  --background: lightgrey;
+}
+.app-body{
+  background-color: var(--background);
+  color: var(--font);
+  width: 100vw;
+}
+.main{
+  background-color: transparent;
+    display: flex;
+    font-family: 'Julius Sans One', sans-serif;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main-heading{
+  margin: 10px;
+  font-weight: bold;
+  padding: 20px;
+}
+.img-container{
+  padding: 10px;  
+}
+.State-Heading{
+  background-color: transparent;
+  color: var(--font);
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+.mode-toggle-btn{
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  border: 0.3px solid var(--font);
+  color: var(--font);
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 9px;
+    font-weight: bold;
+    width: 10%;
+    background-color: transparent;
+}
+.mode-toggle-btn:hover {
+  background-color: rgb(104, 104, 199);
+  color: white;
+  cursor: pointer;
+  border-color: black;
+}
+.cardcontainer{
+  display: flex;
+  padding: 20px;
+}
+.Card{
+  background-color:transparent;
+  width: 25%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 1px 6px 12px black;
+}
+.cardheading{
+  margin: 10px;
+  font-weight: bold;
+  font-family: 'Julius Sans One', sans-serif;
+}
+.value{
+  display: inline-block;
+margin: 8px;
+  font-size: 14px;
+}
+.date{
+  font-size: 10px;
+}
+.chart-container{
+  background-color: transparent;
+  padding: 10px;
+  margin: 10px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form{
+  color: var(--font); 
+}
+.native-select{
+  color: var(--font) !important;
+  padding: 4px !important;
+  border: grey 0.2px solid !important;
+  border-radius: 8px !important;
+  margin: 10px !important;
+  
+}
+.country-option{
+color: whitesmoke !important;
+background: rgba(0, 0, 0, 0.8) !important;
+backdrop-filter: blur(10px) !important;
+}
+/* Media Queries for responsiveness */
+@media screen and (max-width: 700px) {
+  .cardcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+  .Card{
+    width: 80%;
+
+  }
+  .cardheading{
+    padding: 4px;
+    font-size: 20px;
+  }
+  .value{
+    padding: 4px;
+    font-size: 20px;
+
+  }
+  .chart-container{
+    width: 95%;
+  }
+  .mode-toggle-btn{
+    width: 24%;
+    position: absolute;
+    top: 70px;
+    left: 20px;
+
+  }
+
+}
