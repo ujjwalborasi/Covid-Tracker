@@ -33,6 +33,10 @@ export class App extends Component {
       this.setState({ ShortCode: FetchedCoordinates.short_code })
       console.log(FetchedCoordinates)
     }
+    if(country==='')
+    {
+      this.setState({ShortCode: ''})
+    }
   }
   ModeSwitch = () => {
     if (this.state.Theme === 'Dark') {
