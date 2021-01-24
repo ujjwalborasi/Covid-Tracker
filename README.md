@@ -2,10 +2,27 @@
 Covid tracker app is a web application to track number of covid cases around the world. This app also visualizes daily data of confirmed, recovered and deaths around the world. Country wise overall data is also visulaized. Each country's loaction is also shown on a map. Dark and light themes are available.
 
 ---
-## Resource
+## Features
+
+###  Rendering data from API
+
+###  Data Visulaization using Charts.
+
+###  Locating Countries on Map for better understanding.
+
+
+## Resources
 
 - The api used to fetch data is [COVID API](https://covid19.mathdro.id/api).
 - [Mapbox](https://www.mapbox.com/)  is used for map.
+
+## NPM Packages
+
+- Chartjs for chart with command ```npm i react-chartjs-2``` 
+- Mapbox-gl for intializing maps with command ```npm i mapbox-gl```
+- Axios is for making API calls it is a promise based HTTP client added using the command ```npm i axios```
+- Countup is used for adding countup in cards with command ```npm i react-countup```
+
 
 # Getting Started with Create React App
 
