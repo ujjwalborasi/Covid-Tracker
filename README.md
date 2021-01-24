@@ -12,8 +12,10 @@ Covid tracker app is a web application to track number of covid cases around the
 ![BarChart](./src/Components/Assets/Screenshots/countrywise_data.PNG)
 
 ![LineChart](./src/Components/Assets/Screenshots/global_data.PNG)
-### Locating countries on Map for better understanding.
-![Map] (./src/Components/Assets/Screenshots/map.PNG)
+
+### Locating country on map for better understanding
+
+![Map](./src/Components/Assets/Screenshots/location.PNG)
 
 
 
