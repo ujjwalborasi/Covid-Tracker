@@ -2,6 +2,21 @@
 Covid tracker app is a web application to track number of covid cases around the world. This app also visualizes daily data of confirmed, recovered and deaths around the world. Country wise overall data is also visulaized. Each country's loaction is also shown on a map. Dark and light themes are available.
 
 ---
+
+## Features
+
+### Rendering Data from API
+![Global](./src/Components/Assets/Screenshots/aus.PNG)
+
+### Data Visualization using Charts
+![BarChart](./src/Components/Assets/Screenshots/countrywise data.PNG)
+
+![LineChart](./src/Components/Assets/Screenshots/global data.PNG)
+### Locating countries on Map for better understanding.
+![Map] (./src/Components/Assets/Screenshots/map.PNG)
+
+
+
 ## Resource
 
 - The api used to fetch data is [COVID API](https://covid19.mathdro.id/api).
