@@ -9,8 +9,7 @@ function Map({ Coordinates: { longitude, latitude }, country }) {
         zoom: 5.3,
 
     });
-
-
+    
     return (
         <div style={{ margin: '20px' }}>
             <ReactMapGl
